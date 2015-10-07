@@ -111,7 +111,7 @@
     "max_shape": 750000,
     "min_resample": 10.0 
   },
-  "timedistancematrix_limits": {
+  "time_distance_matrix_limits": {
     "one_to_many": {
       "max_distance": {
         "auto": 5000000.0,
