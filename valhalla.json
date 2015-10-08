@@ -145,7 +145,7 @@
       },
       "max_locations":50  
     }
-  }
+  },
   "costing_options": {
     "auto": {
       "maneuver_penalty": 5.0,
