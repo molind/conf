@@ -1,15 +1,19 @@
 {
   "instructions": {
     "start": {
-      "0": "Head <CARDINAL_DIRECTION>.",
-      "1": "Head <CARDINAL_DIRECTION> on <STREET_NAMES>.",
-      "2": "Head <CARDINAL_DIRECTION> on <BEGIN_STREET_NAMES>. Continue on <STREET_NAMES>.",
+      "phrases": {
+        "0": "Head <CARDINAL_DIRECTION>.",
+        "1": "Head <CARDINAL_DIRECTION> on <STREET_NAMES>.",
+        "2": "Head <CARDINAL_DIRECTION> on <BEGIN_STREET_NAMES>. Continue on <STREET_NAMES>."
+      },
       "cardinal_directions": ["north", "northeast", "east", "southeast", "south", "southwest", "west", "northwest"]
     },
     "start_verbal": {
-      "0": "Head <CARDINAL_DIRECTION> for <LENGTH>.",
-      "1": "Head <CARDINAL_DIRECTION> on <STREET_NAMES> for <LENGTH>.",
-      "2": "Head <CARDINAL_DIRECTION> on <BEGIN_STREET_NAMES>.",
+      "phrases": {
+        "0": "Head <CARDINAL_DIRECTION> for <LENGTH>.",
+        "1": "Head <CARDINAL_DIRECTION> on <STREET_NAMES> for <LENGTH>.",
+        "2": "Head <CARDINAL_DIRECTION> on <BEGIN_STREET_NAMES>."
+      },
       "cardinal_directions": ["north", "northeast", "east", "southeast", "south", "southwest", "west", "northwest"]
     },
     "destination": {
