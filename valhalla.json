@@ -27,7 +27,10 @@
       "relation_script": "conf/admins.lua",
       "relation_function": "rels_proc"
     },
-    "admin": "/data/valhalla/admin.sqlite",
+    "admin": {
+      "admin_dir":"/data/valhalla",
+      "db_name":"admin.sqlite"
+    },
     "timezone": "/data/valhalla/tz_world.sqlite",
     "statistics": "/data/valhalla/statistics.sqlite",
     "transit_dir": "/data/valhalla/transit",
